@@ -11,6 +11,9 @@ public class BasicLogger {
         logger = LogManager.getLogger();
     }
 
+    private BasicLogger() {
+    }
+
     public static void info(String message) {
         logger.info(message);
     }
