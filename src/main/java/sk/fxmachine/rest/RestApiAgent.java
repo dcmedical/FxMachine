@@ -1,4 +1,4 @@
-package sk.fxmachine;
+package sk.fxmachine.rest;
 
 public interface RestApiAgent {
 
